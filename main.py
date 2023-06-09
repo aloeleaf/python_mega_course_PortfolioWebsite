@@ -2,6 +2,8 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
+
+
 col1, col2 = st.columns(2)
 
 with col1:
@@ -19,3 +21,8 @@ with col2:
     sunt in culpa qui officia deserunt mollit anim id est laborum.
     """
     st.info(content)
+
+contact = """
+Bellow you can find some of the apps I have built in Python. Feel free to contact me!
+"""
+st.write(contact)
