@@ -2,9 +2,6 @@ import streamlit as st
 import pandas
 
 st.set_page_config(layout="wide")
-st
-
-
 
 col1, col2 = st.columns(2)
 
@@ -29,7 +26,7 @@ Bellow you can find some of the apps I have built in Python. Feel free to contac
 """
 st.write(contact)
 
-col3, col4 =st.columns(2)
+col3, col4 = st.columns(2)
 
 
 df = pandas.read_csv("data.csv", sep=";")
