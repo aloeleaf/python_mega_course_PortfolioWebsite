@@ -3,10 +3,10 @@ import smtplib, ssl
 host = "mail.bkt.birosag.hu"
 port = 25
 
-username = "mailadmin@"
-password = "passwiord str"
+username = "mailadmin"
+password = "Onenetvision1."
 
-receiver = "mailadmin@bkt.birosag.hu"
+receiver = "sandorsz@birosag.hu"
 context = ""
 
 message = """
